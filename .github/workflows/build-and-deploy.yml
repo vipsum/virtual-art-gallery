@@ -5,9 +5,6 @@ on:
     branches:
       - master
 
-permissions:
-  contents: write
-
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -29,6 +26,6 @@ jobs:
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          branch: master
+          branch: gh-pages
           folder: .
           token: ${{ secrets.GITHUB_TOKEN }}
