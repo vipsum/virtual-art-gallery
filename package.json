@@ -12,6 +12,8 @@
 	"license": "MIT",
 	"dependencies": {
 		"@babel/runtime": "^7.14.8",
+		"@loaders.gl/core": "^4.3.3",
+		"@loaders.gl/gltf": "^4.3.3",
 		"babel-core": "7.0.0-bridge.0",
 		"gl-mat4": "^1.2.0",
 		"gl-vec3": "^1.1.3",
